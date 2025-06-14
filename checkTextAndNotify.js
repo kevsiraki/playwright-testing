@@ -3,8 +3,8 @@ const axios = require('axios');
 require('dotenv').config();
 
 // CONFIG
-const URL = 'https://www.kevinsiraki.com/playwright-test'; // The website to check
-const TEXT_TO_FIND = 'Hello World!'; // The text you're looking for
+const URL = 'https://demo.kevinsiraki.com/ip'; // The website to check (using load balancer IP text as it changes per request.)
+const TEXT_TO_FIND = '192.168.1.86'; // The text you're looking for, alternates between 192.168.1.86 (Raspberry Pi 4 Node) and 192.168.1.134 (Raspberry Pi 5 Node)
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 
 if (!DISCORD_WEBHOOK_URL) {
