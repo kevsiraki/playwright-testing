@@ -12,7 +12,7 @@ It sends a notification to a **Discord webhook** indicating whether the text was
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 **Clone or download this repository**
 
